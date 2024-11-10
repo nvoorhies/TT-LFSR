@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Just a 8-bit LFSR that zooms along. RST_N slaps a 1 in case it comes up all zeros. Period should be 255
 
 ## How to test
 
-Explain how to use your project
+Raise RST_N, then lower. We should see all 255 patterns of 8 bits values that != 8'h0 over the next 255 clocks.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+None.
